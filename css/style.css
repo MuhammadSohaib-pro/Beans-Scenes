@@ -1,0 +1,134 @@
+/* ===================== */
+/* COMMOM CSS */
+:root {
+  --clicker-font: "Clicker Script", serif;
+  --playfair-font: "Playfair Display", serif;
+  --primary-color: #f9c06a;
+  --secondary-color: #603809;
+  --body-color: #fffefc;
+  --grey-color: #707070;
+  --card-bgcolor: #fff9f1;
+}
+
+body {
+  font-family: var(--playfair-font);
+  background-color: var(--body-color);
+}
+
+.section-title {
+  color: var(--secondary-color);
+}
+
+.section-description {
+  color: var(--grey-color);
+}
+
+/* ===================== */
+/* primary button CSS */
+
+.primary-button {
+  background-color: var(--primary-color);
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+}
+
+.primary-button:hover {
+  background-color: var(--primary-color);
+}
+
+/* ===================== */
+/* Header CSS */
+
+.nav-logo {
+  font-family: var(--clicker-font);
+  font-size: 2.2rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.sign-in-link {
+  text-decoration: underline;
+}
+
+.navbar-fixed {
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--secondary-color);
+}
+
+/* ===================== */
+/* Hero Section CSS */
+
+.hero-section {
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(90deg, #1e1e1e 0%, rgba(0, 0, 0, 0)),
+    url("../assets/images/coffee_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section-text-padding {
+  padding-top: 8rem;
+}
+
+.coffee-lg-text {
+  font-size: 14rem;
+  font-family: var(--clicker-font);
+  margin: 0;
+}
+
+/* ===================== */
+/* Discover Section CSS */
+
+.discover-section {
+  position: relative;
+}
+
+.discover-text {
+  color: var(--secondary-color);
+}
+
+.discover-description {
+  color: var(--grey-color);
+}
+
+.coffee-blast-1 {
+  position: absolute;
+  left: 0px;
+  bottom: -60px;
+}
+/* ===================== */
+/* Product Section CSS */
+
+.product-card {
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  background-color: var(--card-bgcolor);
+}
+.card-title {
+  color: var(--secondary-color);
+}
+.product-price {
+  color: var(--secondary-color);
+}
+
+.product-card-btn {
+  position: absolute;
+  bottom: -20px;
+}
+
+.about-card {
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  background-color: var(--card-bgcolor);
+}
+
+.about-card:hover {
+  border: none;
+  background-color: #ffeed8;
+}
+
+.card-icon {
+  height: 80px;
+  width: 80px;
+}
