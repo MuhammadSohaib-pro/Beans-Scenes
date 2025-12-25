@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet" />
     <!-- BootStrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- BootStrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- Custom Styling -->
     <link rel="stylesheet" href="css/style.css" />
 </head>

@@ -35,6 +35,10 @@ body {
   background-color: var(--primary-color);
 }
 
+.btn-primary.primary-button:active {
+  background-color: var(--primary-color);
+}
+
 /* ===================== */
 /* Header CSS */
 
@@ -46,7 +50,9 @@ body {
 .nav-link {
   color: white;
 }
-
+.nav-link:hover {
+  color: var(--primary-color);
+}
 .sign-in-link {
   text-decoration: underline;
 }
@@ -118,17 +124,188 @@ body {
   bottom: -20px;
 }
 
+.product-section {
+  position: relative;
+}
+
+.coffee-blast-2 {
+  position: absolute;
+  right: 0px;
+  bottom: -170px;
+}
+
+/* ===================== 
+/* About Section CSS */
+
 .about-card {
   border: 1px solid rgba(249, 192, 106, 0.42);
   background-color: var(--card-bgcolor);
 }
 
 .about-card:hover {
-  border: none;
   background-color: #ffeed8;
 }
 
 .card-icon {
   height: 80px;
   width: 80px;
+}
+
+/* ===================== 
+/* Promotion Section CSS */
+
+.promotion-section {
+  position: relative;
+  height: 60vh;
+  background-image: url("../assets/images/coffee-cup-and-beans.png");
+  background-size: cover;
+  z-index: 1;
+}
+.promotion-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(96, 56, 9, 0.6); /* overlay only */
+  z-index: 1;
+}
+
+.grain-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 4;
+}
+
+/* ===================== 
+/* Testimonial Section CSS */
+
+.testimonial-card {
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  background-color: var(--card-bgcolor);
+  padding: 6rem;
+}
+
+.testimonial-avatar {
+  position: absolute;
+  bottom: -50px;
+}
+.testimonial-image {
+  height: 100px;
+  width: 100px;
+  z-index: 1002;
+}
+.testimonial-previous-btn {
+  position: absolute;
+  top: 45%;
+  left: -30px;
+  height: 80px;
+  width: 80px;
+  background-color: var(--primary-color);
+}
+
+.testimonial-next-btn {
+  position: absolute;
+  top: 45%;
+  right: -30px;
+  height: 80px;
+  width: 80px;
+  background-color: var(--primary-color);
+}
+.testimonial-icon {
+  color: var(--secondary-color);
+}
+.testimonial-text {
+  color: var(--grey-color);
+}
+
+.testimonial-section {
+  position: relative;
+}
+
+.coffee-blast-2 {
+  position: absolute;
+  right: 0px;
+  top: 90px;
+}
+
+.coffee-blast-3 {
+  position: absolute;
+  left: 0px;
+  bottom: -50px;
+}
+
+/* ===================== 
+/* Subscribe Section CSS */
+
+.subscribe-section {
+  position: relative;
+  background-image: url("../assets/images/coffee-cup-and-beans.png");
+  background-size: cover;
+  z-index: 1;
+}
+.subscribe-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(96, 56, 9, 0.6); /* overlay only */
+  z-index: 1;
+}
+
+.subscribe-content {
+  position: relative;
+  z-index: 4;
+}
+.subscribe-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.btn.btn-primary.subscribe-button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn.btn-primary.subscribe-button:active {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.coffee-cup-1 {
+  position: absolute;
+  bottom: -100px;
+  left: 0px;
+  z-index: 5;
+}
+
+.coffee-cup-2 {
+  position: absolute;
+  right: 0px;
+  bottom: -100px;
+  z-index: 5;
+}
+
+/* ===================== 
+/* Footer Section CSS */
+
+.footer-section {
+  height: 50vh;
+  position: relative;
+  background-image: url("../assets/images/fotter_image.png");
+  background-size: contain;
+  z-index: 1;
+}
+.footer-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(68, 40, 8, 0.9); /* overlay only */
+  z-index: 1;
+}
+
+.footer-content {
+  z-index: 2;
 }

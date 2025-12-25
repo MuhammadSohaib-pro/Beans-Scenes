@@ -101,6 +101,10 @@
             </div>
         </div>
     </div>
+
+    <div class="coffee-blast-2">
+        <img src="./assets/images/coffee_blast_2.png" alt="coffee-blast">
+    </div>
 </section>
 
 <!-- About Section -->
@@ -159,7 +163,130 @@
         Now</button>
 </section>
 
+<!-- Promotion Section -->
 
+<section class="promotion-section container-fluid p-0 position-relative">
+    <div class="container py-5 content-overlay ">
+        <div class="row">
+            <div class="col d-flex flex-column align-items-start justify-content-center">
+                <p class="display-4 text-white">Get a chance to have an
+                    Amazing morning</p>
+                <p class=" text-white">We are giving you are one time opportunity to
+                    experience a better life with coffee.</p>
+                <button class="btn btn-primary primary-button rounded-5 border-0 text-black px-4 py-2">Order
+                    Now</button>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <img src="./assets/images/cup.png" alt="Cup">
+            </div>
+        </div>
+    </div>
+    <img class="grain-image" src="./assets/images/coffee_bean.png" alt="Cup">
+</section>
 
+<!-- Testimonial Section -->
+<section class="testimonial-section py-5">
+    <p class="display-4 section-title text-center">Our coffee perfection feedback</p>
+    <p class="section-description text-center pb-5">Our customers has amazing things to say about us</p>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="position-relative carousel slide" id="carouselExample">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <div
+                                class="card testimonial-card d-flex flex-column justify-content-center align-items-center text-center">
+                                <img class="testimonial-image rounded-3 mb-3" src="./assets/images/testimonial-2.jpg"
+                                    alt="testimonial">
+                                <p class="testimonial-text">From the moment I open the bag, the aroma feels inviting and
+                                    comforting.
+                                    Every
+                                    cup
+                                    is smooth, rich, and perfectly brewed in flavor. There’s no bitterness, just a deep
+                                    and
+                                    satisfying taste. It has completely changed my morning routine for the better. I
+                                    honestly
+                                    look forward to every single cup.</p>
+                                <h5 class="card-title fs-2">Jonny Thomas</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item  ">
+                            <div
+                                class="card testimonial-card d-flex flex-column justify-content-center align-items-center text-center">
+                                <img class="testimonial-image rounded-3 mb-3" src="./assets/images/testimonial-6.jpg"
+                                    alt="testimonial">
+                                <p class="testimonial-text">From the moment I open the bag, the aroma feels inviting and
+                                    comforting.
+                                    Every
+                                    cup
+                                    is smooth, rich, and perfectly brewed in flavor. There’s no bitterness, just a deep
+                                    and
+                                    satisfying taste. It has completely changed my morning routine for the better. I
+                                    honestly
+                                    look forward to every single cup.</p>
+                                <h5 class="card-title fs-2">Emily Robinson</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item  ">
+                            <div
+                                class="card testimonial-card d-flex flex-column justify-content-center align-items-center text-center">
+                                <img class="testimonial-image rounded-3 mb-3" src="./assets/images/testimonial-5.jpg"
+                                    alt="testimonial">
+                                <p class="testimonial-text">From the moment I open the bag, the aroma feels inviting and
+                                    comforting.
+                                    Every
+                                    cup
+                                    is smooth, rich, and perfectly brewed in flavor. There’s no bitterness, just a deep
+                                    and
+                                    satisfying taste. It has completely changed my morning routine for the better. I
+                                    honestly
+                                    look forward to every single cup.</p>
+                                <h5 class="card-title fs-2">Sarah Thompson</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide="prev"
+                        class="carousel-control-prev btn btn-primary primary-button border-0 testimonial-previous-btn rounded-3 d-flex justify-content-center align-items-center">
+                        <i class="bi bi-arrow-left fs-3 fw-bold testimonial-icon"></i>
+                    </button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide="next"
+                        class="carousel-control-next btn btn-primary primary-button border-0 testimonial-next-btn rounded-3 d-flex justify-content-center align-items-center">
+                        <i class="bi bi-arrow-right fs-3 fw-bold testimonial-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="coffee-blast-2">
+        <img src="./assets/images/coffee_blast_2.png" alt="coffee-blast">
+    </div>
+    <div class="coffee-blast-3">
+        <img src="./assets/images/coffee_blast_3.png" alt="coffee-blast">
+    </div>
+</section>
+
+<!-- Subscribe Section -->
+<section class="subscribe-section mt-5">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-8 offset-2 ">
+                <div class="subscribe-content d-flex flex-column align-items-center justify-content-center">
+                    <p class="display-4 section-title text-white text-center">Our coffee perfection feedback</p>
+                    <p class="text-white mt-2 mb-4 text-center">
+                        Don’t miss out on our latest news, updates, tips and special offers
+                    </p>
+                    <div class="input-group input-group-lg  w-75 ">
+                        <input type="text" class="form-control" placeholder="Enter your email"
+                            aria-describedby="button-addon2">
+                        <button class="btn btn-primary subscribe-button border-0" type="button"
+                            id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include "includes/footer.php";?>
