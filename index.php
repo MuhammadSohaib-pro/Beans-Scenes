@@ -3,7 +3,7 @@
 <section class="hero-section">
     <div class="container pb-5 hero-section-text-padding">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <p class="text-white fs-3 m-0">We’ve got your morning covered with</p>
                 <p class="text-white coffee-lg-text">Coffee</p>
                 <p class="text-white fs-5">It is best to start your day with a cup of coffee. Discover the
@@ -19,7 +19,7 @@
 <section class="discover-section">
     <div class=" container py-5">
         <div class="row">
-            <div class="col d-flex flex-column justify-content-center align-items-start">
+            <div class="col-12 col-md-7 d-flex flex-column justify-content-center align-items-start">
                 <h2 class="discover-text fs-1 mb-3">Discover the best coffee</h2>
                 <p class="discover-description">Bean Scene is a coffee shop that provides you with quality coffee that
                     helps boost your productivityExplore all flavours of coffee with us. There is always a new cup worth
@@ -30,8 +30,8 @@
                 <button class=" btn btn-primary primary-button rounded-5 border-0 text-black px-4 py-2">Learn
                     More</button>
             </div>
-            <div class="col d-flex flex-column justify-content-center align-items-center">
-                <img src="./assets/images/coffee-beans-flat-layer.png" alt="coffee-beans-flat-layer" class="">
+            <div class="col-12 col-md-5 d-flex flex-column justify-content-center align-items-center">
+                <img src="./assets/images/coffee-beans-flat-layer.png" alt="coffee-beans-flat-layer" class="img-fluid">
             </div>
         </div>
     </div>
@@ -46,8 +46,8 @@
         worth
         experiencing</p>
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row g-5 g-lg-0">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="card product-card position-relative d-flex align-items-center">
                     <img src="./assets/images/product-1.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
@@ -60,7 +60,7 @@
                         Now</button>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="card product-card position-relative d-flex align-items-center">
                     <img src="./assets/images/product-2.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
@@ -73,7 +73,7 @@
                         Now</button>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="card product-card position-relative d-flex align-items-center">
                     <img src="./assets/images/product-3.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
@@ -86,7 +86,7 @@
                         Now</button>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="card product-card position-relative d-flex align-items-center">
                     <img src="./assets/images/product-4.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
@@ -114,8 +114,8 @@
         worth
         experiencing</p>
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-xl-3">
                 <div class="card about-card">
                     <div class="card-body text-center p-5">
                         <img class="card-icon mb-4" src="./assets/images/coffee-beans-icon.png" alt="coffee-beans-icon">
@@ -125,7 +125,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-xl-3">
                 <div class="card about-card">
                     <div class="card-body text-center p-5">
                         <img class="card-icon  mb-4" src="./assets/images/badge-icon.png" alt="badge-icon">
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-xl-3">
                 <div class="card about-card">
                     <div class="card-body text-center p-5">
                         <img class="card-icon  mb-4" src="./assets/images/coffee-cup-icon.png" alt="coffee-cup-icon">
@@ -145,7 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-xl-3">
                 <div class="card about-card">
                     <div class="card-body text-center p-5">
                         <img class="card-icon  mb-4" src="./assets/images/best-price-icon.png" alt="best-price-icon">
@@ -165,10 +165,10 @@
 
 <!-- Promotion Section -->
 
-<section class="promotion-section container-fluid p-0 position-relative">
+<section class="promotion-section container-fluid position-relative">
     <div class="container py-5 content-overlay ">
-        <div class="row">
-            <div class="col d-flex flex-column align-items-start justify-content-center">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 d-flex flex-column align-items-start justify-content-center">
                 <p class="display-4 text-white">Get a chance to have an
                     Amazing morning</p>
                 <p class=" text-white">We are giving you are one time opportunity to
@@ -176,12 +176,12 @@
                 <button class="btn btn-primary primary-button rounded-5 border-0 text-black px-4 py-2">Order
                     Now</button>
             </div>
-            <div class="col d-flex justify-content-center">
+            <div class="col-12 col-md-6 d-flex justify-content-center">
                 <img src="./assets/images/cup.png" alt="Cup">
             </div>
         </div>
     </div>
-    <img class="grain-image" src="./assets/images/coffee_bean.png" alt="Cup">
+    <img class="grain-image img-fluid" src="./assets/images/coffee_bean.png" alt="Cup">
 </section>
 
 <!-- Testimonial Section -->
@@ -259,10 +259,10 @@
         </div>
     </div>
 
-    <div class="coffee-blast-2">
+    <div class="coffee-blast-right">
         <img src="./assets/images/coffee_blast_2.png" alt="coffee-blast">
     </div>
-    <div class="coffee-blast-3">
+    <div class="coffee-blast-left">
         <img src="./assets/images/coffee_blast_3.png" alt="coffee-blast">
     </div>
 </section>
@@ -271,7 +271,7 @@
 <section class="subscribe-section mt-5">
     <div class="container py-5">
         <div class="row py-5">
-            <div class="col-8 offset-2 ">
+            <div class=" col-12 col-md-8 offset-md-2 col-lg-8 ">
                 <div class="subscribe-content d-flex flex-column align-items-center justify-content-center">
                     <p class="display-4 section-title text-white text-center">Our coffee perfection feedback</p>
                     <p class="text-white mt-2 mb-4 text-center">

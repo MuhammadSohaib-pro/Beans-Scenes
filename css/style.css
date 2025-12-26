@@ -15,6 +15,12 @@ body {
   background-color: var(--body-color);
 }
 
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .section-title {
   color: var(--secondary-color);
 }
@@ -156,7 +162,6 @@ body {
 
 .promotion-section {
   position: relative;
-  height: 60vh;
   background-image: url("../assets/images/coffee-cup-and-beans.png");
   background-size: cover;
   z-index: 1;
@@ -190,10 +195,6 @@ body {
   padding: 6rem;
 }
 
-.testimonial-avatar {
-  position: absolute;
-  bottom: -50px;
-}
 .testimonial-image {
   height: 100px;
   width: 100px;
@@ -227,13 +228,13 @@ body {
   position: relative;
 }
 
-.coffee-blast-2 {
+.coffee-blast-right {
   position: absolute;
   right: 0px;
   top: 90px;
 }
 
-.coffee-blast-3 {
+.coffee-blast-left {
   position: absolute;
   left: 0px;
   bottom: -50px;
@@ -292,10 +293,10 @@ body {
 /* Footer Section CSS */
 
 .footer-section {
-  height: 50vh;
   position: relative;
   background-image: url("../assets/images/fotter_image.png");
   background-size: contain;
+  background-repeat: no-repeat;
   z-index: 1;
 }
 .footer-section::before {
@@ -307,5 +308,74 @@ body {
 }
 
 .footer-content {
+  position: relative;
   z-index: 2;
+}
+
+.footer-logo {
+  font-family: var(--clicker-font);
+}
+
+@media (max-width: 1023px) {
+  .coffee-lg-text {
+    font-size: 8rem;
+    font-family: var(--clicker-font);
+    margin: 0;
+  }
+
+  .coffee-blast-1 {
+    position: absolute;
+    left: -150px;
+    bottom: -100px;
+  }
+
+  .coffee-blast-2 {
+    position: absolute;
+    right: -150px;
+    bottom: -100px;
+  }
+
+  .footer-section {
+    position: relative;
+    background-image: url("../assets/images/fotter_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .testimonial-card {
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background-color: var(--card-bgcolor);
+    padding: 2rem;
+  }
+
+  .testimonial-previous-btn {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: var(--primary-color);
+  }
+
+  .testimonial-next-btn {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    background-color: var(--primary-color);
+  }
+
+  .coffee-blast-right {
+    position: absolute;
+    right: -100px;
+    top: 30px;
+  }
+
+  .coffee-blast-left {
+    position: absolute;
+    left: -100px;
+    bottom: -130px;
+  }
 }
