@@ -31,12 +31,12 @@
                     More</button>
             </div>
             <div class="col-12 col-md-5 d-flex flex-column justify-content-center align-items-center">
-                <img src="./assets/images/coffee-beans-flat-layer.png" alt="coffee-beans-flat-layer" class="img-fluid">
+                <img src="assets/images/coffee-beans-flat-layer.png" alt="coffee-beans-flat-layer" class="img-fluid">
             </div>
         </div>
     </div>
     <div class="coffee-blast-1">
-        <img src="./assets/images/coffee_blast_1.png" alt="coffee-blast">
+        <img src="assets/images/coffee_blast_1.png" alt="coffee-blast">
     </div>
 </section>
 <!-- Product Section -->
@@ -46,64 +46,44 @@
         worth
         experiencing</p>
     <div class="container">
-        <div class="row g-5 g-lg-0">
+        <div class="row g-5 g-lg-3">
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card product-card position-relative d-flex align-items-center">
-                    <img src="./assets/images/product-1.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Cappuccino</h5>
-                        <p class="card-text m-1">Coffee 50% | Milk 50%</p>
-                        <p class="card-text product-price mb-4">$8.50</p>
-                    </div>
-                    <button
-                        class=" btn btn-primary primary-button product-card-btn rounded-5 border-0 text-black px-4 py-2">Order
-                        Now</button>
-                </div>
+                <?php 
+                $product_image_url="assets/images/product-1.png";
+                $product_name="Cappuccino";
+                $product_description="Espresso, Steamed Milk & Milk Foam";
+                $product_price="$8.50";
+                include "includes/product-card.php"; ?>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card product-card position-relative d-flex align-items-center">
-                    <img src="./assets/images/product-2.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Mocha Latte</h5>
-                        <p class="card-text m-1">Coffee 50% | Milk 50%</p>
-                        <p class="card-text product-price mb-4">$8.50</p>
-                    </div>
-                    <button
-                        class=" btn btn-primary primary-button product-card-btn rounded-5 border-0 text-black px-4 py-2">Order
-                        Now</button>
-                </div>
+                <?php 
+                $product_image_url="assets/images/product-2.png";
+                $product_name="Mocha Latte";
+                $product_description="Espresso, Steamed Milk & Chocolate";
+                $product_price="$8.50";
+                include "includes/product-card.php"; ?>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card product-card position-relative d-flex align-items-center">
-                    <img src="./assets/images/product-3.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Macchiato</h5>
-                        <p class="card-text m-1">Coffee 50% | Milk 50%</p>
-                        <p class="card-text product-price mb-4">$8.50</p>
-                    </div>
-                    <button
-                        class=" btn btn-primary primary-button product-card-btn rounded-5 border-0 text-black px-4 py-2">Order
-                        Now</button>
-                </div>
+                <?php 
+                $product_image_url="assets/images/product-3.png";
+                $product_name="Macchiato";
+                $product_description="Espresso with a Touch of Milk";
+                $product_price="$8.50";
+                include "includes/product-card.php"; ?>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card product-card position-relative d-flex align-items-center">
-                    <img src="./assets/images/product-4.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Expresso</h5>
-                        <p class="card-text m-1">Coffee 50% | Milk 50%</p>
-                        <p class="card-text product-price mb-4">$8.50</p>
-                    </div>
-                    <button
-                        class=" btn btn-primary primary-button product-card-btn rounded-5 border-0 text-black px-4 py-2">Order
-                        Now</button>
-                </div>
+                <?php 
+                $product_image_url="assets/images/product-4.png";
+                $product_name="Expresso";
+                $product_description="Pure Espresso Shot";
+                $product_price="$8.50";
+                include "includes/product-card.php"; ?>
             </div>
         </div>
     </div>
 
     <div class="coffee-blast-2">
-        <img src="./assets/images/coffee_blast_2.png" alt="coffee-blast">
+        <img src="assets/images/coffee_blast_2.png" alt="coffee-blast">
     </div>
 </section>
 
@@ -117,42 +97,38 @@
         <div class="row g-3">
             <div class="col-12 col-md-6 col-xl-3">
                 <div class="card about-card">
-                    <div class="card-body text-center p-5">
-                        <img class="card-icon mb-4" src="./assets/images/coffee-beans-icon.png" alt="coffee-beans-icon">
-                        <h5 class="card-title">Supreme Beans</h5>
-                        <p class="card-text m-1">Beans that provides
-                            great taste</p>
-                    </div>
+                    <?php 
+                    $card_icon="assets/images/coffee-beans-icon.png";
+                    $card_title="Supreme Beans";
+                    $card_description="Beans that provides great taste";
+                    include "includes/about-card.php"; ?>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-3">
                 <div class="card about-card">
-                    <div class="card-body text-center p-5">
-                        <img class="card-icon  mb-4" src="./assets/images/badge-icon.png" alt="badge-icon">
-                        <h5 class="card-title">High Quality</h5>
-                        <p class="card-text m-1">We provide the
-                            highest quality</p>
-                    </div>
+                    <?php 
+                    $card_icon="assets/images/badge-icon.png";
+                    $card_title="High Quality";
+                    $card_description="We provide the highest quality";
+                    include "includes/about-card.php"; ?>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-3">
                 <div class="card about-card">
-                    <div class="card-body text-center p-5">
-                        <img class="card-icon  mb-4" src="./assets/images/coffee-cup-icon.png" alt="coffee-cup-icon">
-                        <h5 class="card-title">Extraordinary</h5>
-                        <p class="card-text m-1">Coffee like you have
-                            never tasted</p>
-                    </div>
+                    <?php 
+                    $card_icon="assets/images/coffee-cup-icon.png";
+                    $card_title="Extraordinary";
+                    $card_description="Coffee like you have never tasted";
+                    include "includes/about-card.php"; ?>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-3">
                 <div class="card about-card">
-                    <div class="card-body text-center p-5">
-                        <img class="card-icon  mb-4" src="./assets/images/best-price-icon.png" alt="best-price-icon">
-                        <h5 class="card-title">Affordable Price</h5>
-                        <p class="card-text m-1">Our Coffee prices are
-                            easy to afford</p>
-                    </div>
+                    <?php 
+                    $card_icon="assets/images/best-price-icon.png";
+                    $card_title="Affordable Price";
+                    $card_description="Our Coffee prices are easy to afford";
+                    include "includes/about-card.php"; ?>
                 </div>
             </div>
         </div>
@@ -177,11 +153,11 @@
                     Now</button>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center">
-                <img src="./assets/images/cup.png" alt="Cup">
+                <img src="assets/images/cup.png" alt="Cup">
             </div>
         </div>
     </div>
-    <img class="grain-image img-fluid" src="./assets/images/coffee_bean.png" alt="Cup">
+    <img class="grain-image img-fluid" src="assets/images/coffee_bean.png" alt="Cup">
 </section>
 
 <!-- Testimonial Section -->
@@ -194,11 +170,9 @@
                 <div class="position-relative carousel slide" id="carouselExample">
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
-                            <div
-                                class="card testimonial-card d-flex flex-column justify-content-center align-items-center text-center">
-                                <img class="testimonial-image rounded-3 mb-3" src="./assets/images/testimonial-2.jpg"
-                                    alt="testimonial">
-                                <p class="testimonial-text">From the moment I open the bag, the aroma feels inviting and
+                            <?php 
+                            $testimonial_avatar="assets/images/testimonial-2.jpg";
+                            $testimonial_description="From the moment I open the bag, the aroma feels inviting and
                                     comforting.
                                     Every
                                     cup
@@ -206,16 +180,16 @@
                                     and
                                     satisfying taste. It has completely changed my morning routine for the better. I
                                     honestly
-                                    look forward to every single cup.</p>
-                                <h5 class="card-title fs-2">Jonny Thomas</h5>
-                            </div>
+                                    look forward to every single cup.";
+                            $testimonial_title="Jonny Thomas";
+                            include
+                            "includes/testimonial-card.php";
+                            ?>
                         </div>
-                        <div class="carousel-item  ">
-                            <div
-                                class="card testimonial-card d-flex flex-column justify-content-center align-items-center text-center">
-                                <img class="testimonial-image rounded-3 mb-3" src="./assets/images/testimonial-6.jpg"
-                                    alt="testimonial">
-                                <p class="testimonial-text">From the moment I open the bag, the aroma feels inviting and
+                        <div class="carousel-item">
+                            <?php 
+                            $testimonial_avatar="assets/images/testimonial-6.jpg";
+                            $testimonial_description="From the moment I open the bag, the aroma feels inviting and
                                     comforting.
                                     Every
                                     cup
@@ -223,16 +197,16 @@
                                     and
                                     satisfying taste. It has completely changed my morning routine for the better. I
                                     honestly
-                                    look forward to every single cup.</p>
-                                <h5 class="card-title fs-2">Emily Robinson</h5>
-                            </div>
+                                    look forward to every single cup.";
+                            $testimonial_title="Emily Robinson";
+                            include
+                            "includes/testimonial-card.php";
+                            ?>
                         </div>
-                        <div class="carousel-item  ">
-                            <div
-                                class="card testimonial-card d-flex flex-column justify-content-center align-items-center text-center">
-                                <img class="testimonial-image rounded-3 mb-3" src="./assets/images/testimonial-5.jpg"
-                                    alt="testimonial">
-                                <p class="testimonial-text">From the moment I open the bag, the aroma feels inviting and
+                        <div class="carousel-item">
+                            <?php 
+                            $testimonial_avatar="assets/images/testimonial-5.jpg";
+                            $testimonial_description="From the moment I open the bag, the aroma feels inviting and
                                     comforting.
                                     Every
                                     cup
@@ -240,9 +214,11 @@
                                     and
                                     satisfying taste. It has completely changed my morning routine for the better. I
                                     honestly
-                                    look forward to every single cup.</p>
-                                <h5 class="card-title fs-2">Sarah Thompson</h5>
-                            </div>
+                                    look forward to every single cup.";
+                            $testimonial_title="Sarah Thompson";
+                            include
+                            "includes/testimonial-card.php";
+                            ?>
                         </div>
 
                     </div>
@@ -260,10 +236,10 @@
     </div>
 
     <div class="coffee-blast-right">
-        <img src="./assets/images/coffee_blast_2.png" alt="coffee-blast">
+        <img src="assets/images/coffee_blast_2.png" alt="coffee-blast">
     </div>
     <div class="coffee-blast-left">
-        <img src="./assets/images/coffee_blast_3.png" alt="coffee-blast">
+        <img src="assets/images/coffee_blast_3.png" alt="coffee-blast">
     </div>
 </section>
 
