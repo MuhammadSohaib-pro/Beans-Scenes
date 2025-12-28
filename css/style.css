@@ -295,7 +295,7 @@ body {
 .footer-section {
   position: relative;
   background-image: url("../assets/images/fotter_image.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -333,14 +333,6 @@ body {
     position: absolute;
     right: -150px;
     bottom: -100px;
-  }
-
-  .footer-section {
-    position: relative;
-    background-image: url("../assets/images/fotter_image.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1;
   }
 
   .testimonial-card {
