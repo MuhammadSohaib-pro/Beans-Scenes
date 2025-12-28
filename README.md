@@ -28,13 +28,13 @@ A modern, responsive coffee shop website built with PHP, Bootstrap 5, and custom
 ```
 beans-scenes/
 ├── assets/
-│   ├── css/
-│   │   ├── bootstrap.min.css
-│   │   └── style.css
-│   ├── images/          # All product and design images
-│   └── js/
-│       ├── bootstrap.bundle.min.js
-│       └── script.js
+│   └── images/        # All product and design images
+├── css/
+│   ├── bootstrap.min.css
+│   └── script.js
+├── js/
+│   ├── bootstrap.bundle.min.js
+│   └── style.css
 ├── includes/
 │   ├── about-card.php        # Feature cards component
 │   ├── footer.php            # Footer with links and contact
